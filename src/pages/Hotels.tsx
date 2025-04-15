@@ -107,7 +107,7 @@ const Hotels = () => {
   const initialDestination = searchParams.get('destination') || '';
   
   const [destination, setDestination] = useState(initialDestination);
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 20000]);
   const [selectedRating, setSelectedRating] = useState('');
   const [selectedAmenities, setSelectedAmenities] = useState<string[]>([]);
   const [filteredHotels, setFilteredHotels] = useState<HotelProps[]>(mockHotels);
@@ -188,20 +188,20 @@ const Hotels = () => {
               {/* Price Range */}
               <div className="mb-6">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Price Range
+                  Price Range (₹)
                 </label>
                 <div className="mb-2">
                   <Slider
                     defaultValue={priceRange}
                     min={0}
-                    max={500}
-                    step={10}
+                    max={20000}
+                    step={1000}
                     onValueChange={(value: number[]) => setPriceRange(value)}
                   />
                 </div>
                 <div className="flex justify-between text-sm text-gray-500">
-                  <span>${priceRange[0]}</span>
-                  <span>${priceRange[1]}</span>
+                  <span>₹{priceRange[0]}</span>
+                  <span>₹{priceRange[1]}</span>
                 </div>
               </div>
               
@@ -215,7 +215,7 @@ const Hotels = () => {
                     <SelectValue placeholder="Any Rating" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="any">Any Rating</SelectItem>
+                    <SelectItem value="">Any Rating</SelectItem>
                     <SelectItem value="3">3+ Stars</SelectItem>
                     <SelectItem value="4">4+ Stars</SelectItem>
                     <SelectItem value="4.5">4.5+ Stars</SelectItem>
@@ -251,7 +251,7 @@ const Hotels = () => {
                 className="w-full mt-6"
                 onClick={() => {
                   setDestination('');
-                  setPriceRange([0, 500]);
+                  setPriceRange([0, 20000]);
                   setSelectedRating('');
                   setSelectedAmenities([]);
                 }}
@@ -285,7 +285,7 @@ const Hotels = () => {
                   variant="outline" 
                   onClick={() => {
                     setDestination('');
-                    setPriceRange([0, 500]);
+                    setPriceRange([0, 20000]);
                     setSelectedRating('');
                     setSelectedAmenities([]);
                   }}
@@ -304,4 +304,3 @@ const Hotels = () => {
 };
 
 export default Hotels;
-
