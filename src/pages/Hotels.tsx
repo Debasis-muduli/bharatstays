@@ -215,7 +215,7 @@ const Hotels = () => {
                     <SelectValue placeholder="Any Rating" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">Any Rating</SelectItem>
+                    <SelectItem value="any">Any Rating</SelectItem>
                     <SelectItem value="3">3+ Stars</SelectItem>
                     <SelectItem value="4">4+ Stars</SelectItem>
                     <SelectItem value="4.5">4.5+ Stars</SelectItem>
@@ -304,3 +304,4 @@ const Hotels = () => {
 };
 
 export default Hotels;
+

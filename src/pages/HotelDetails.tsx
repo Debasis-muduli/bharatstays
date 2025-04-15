@@ -132,7 +132,7 @@ const HotelDetails = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [checkInDate, setCheckInDate] = useState<Date | undefined>();
   const [checkOutDate, setCheckOutDate] = useState<Date | undefined>();
-  const [guests, setGuests] = useState("2");
+  const [guests, setGuests] = useState("1");
   const [rooms, setRooms] = useState("1");
   const [selectedRoom, setSelectedRoom] = useState<string | undefined>();
 
