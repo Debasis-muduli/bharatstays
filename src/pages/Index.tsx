@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -17,24 +18,24 @@ import SearchBar from '@/components/SearchBar';
 const testimonials = [
   {
     id: 1,
-    name: "Emily Johnson",
-    location: "New York",
-    message: "I found the perfect hotel for our honeymoon through StayEasy. The booking process was seamless, and the accommodations exceeded our expectations!",
+    name: "Priya Sharma",
+    location: "Delhi",
+    message: "I found the perfect hotel for our honeymoon through BharatStays. The booking process was seamless, and the accommodations exceeded our expectations!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
   },
   {
     id: 2,
-    name: "David Chen",
-    location: "San Francisco",
-    message: "As a frequent business traveler, I rely on StayEasy for all my hotel bookings. Their customer service is outstanding, and they always find me the best deals.",
+    name: "Rajesh Patel",
+    location: "Mumbai",
+    message: "As a frequent business traveler, I rely on BharatStays for all my hotel bookings. Their customer service is outstanding, and they always find me the best deals.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
   },
   {
     id: 3,
-    name: "Sophia Rodriguez",
-    location: "Miami",
+    name: "Anjali Verma",
+    location: "Bangalore",
     message: "The mobile app is so intuitive and easy to use. I can book a hotel in under 2 minutes, and their loyalty program gives amazing discounts!",
     rating: 4,
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
@@ -76,23 +77,23 @@ const features = [
 
 const popularDestinations = [
   {
-    name: "New York",
-    image: "https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    name: "New Delhi",
+    image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     hotels: 120,
   },
   {
-    name: "Paris",
-    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    name: "Mumbai",
+    image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     hotels: 86,
   },
   {
-    name: "Tokyo",
-    image: "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    name: "Jaipur",
+    image: "https://images.unsplash.com/photo-1599661046307-bdf26789e91b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     hotels: 93,
   },
   {
-    name: "Bali",
-    image: "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    name: "Goa",
+    image: "https://images.unsplash.com/photo-1512343006699-7a8692e10f12?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     hotels: 65,
   },
 ];

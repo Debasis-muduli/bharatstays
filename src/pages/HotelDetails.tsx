@@ -39,15 +39,15 @@ import { cn } from '@/lib/utils';
 // Mock hotel data
 const mockHotelDetails = {
   id: 1,
-  name: "Grand Plaza Hotel",
-  location: "123 Broadway, New York, NY 10001",
-  description: "Experience luxury in the heart of Manhattan with stunning views of Central Park and easy access to iconic landmarks. Our hotel features elegantly appointed rooms, world-class dining, and exceptional service to make your stay truly memorable. Enjoy our state-of-the-art fitness center, relaxing spa, and rooftop pool with panoramic city views.",
-  price: 299,
-  currency: "$",
+  name: "Taj Palace Hotel",
+  location: "2 Sardar Patel Marg, Diplomatic Enclave, New Delhi, 110021",
+  description: "Experience luxury in the heart of India's capital with stunning views of diplomatic enclave and easy access to iconic landmarks. Our hotel features elegantly appointed rooms, world-class dining, and exceptional service to make your stay truly memorable. Enjoy our state-of-the-art fitness center, relaxing spa, and rooftop pool with panoramic city views.",
+  price: 15999,
+  currency: "₹",
   rating: 4.8,
   reviewCount: 534,
-  checkInTime: "3:00 PM",
-  checkOutTime: "11:00 AM",
+  checkInTime: "2:00 PM",
+  checkOutTime: "12:00 PM",
   images: [
     "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
     "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
@@ -70,8 +70,8 @@ const mockHotelDetails = {
       name: "Deluxe King Room",
       description: "Spacious room with a king-sized bed and city views",
       maxOccupancy: 2,
-      price: 299,
-      currency: "$",
+      price: 15999,
+      currency: "₹",
       image: "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
       amenities: ["King Bed", "50\" Smart TV", "Free WiFi", "Work Desk", "Mini Bar"]
     },
@@ -80,8 +80,8 @@ const mockHotelDetails = {
       name: "Executive Suite",
       description: "Luxurious suite with separate living area and premium amenities",
       maxOccupancy: 3,
-      price: 499,
-      currency: "$",
+      price: 25999,
+      currency: "₹",
       image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
       amenities: ["King Bed", "Separate Living Area", "65\" Smart TV", "Premium WiFi", "Executive Lounge Access", "Nespresso Machine"]
     },
@@ -90,8 +90,8 @@ const mockHotelDetails = {
       name: "Double Queen Room",
       description: "Comfortable room with two queen-sized beds, perfect for families",
       maxOccupancy: 4,
-      price: 349,
-      currency: "$",
+      price: 18999,
+      currency: "₹",
       image: "https://images.unsplash.com/photo-1590490359683-658d3d23f972?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
       amenities: ["Two Queen Beds", "50\" Smart TV", "Free WiFi", "Mini Bar"]
     }
@@ -99,24 +99,24 @@ const mockHotelDetails = {
   reviews: [
     {
       id: 1,
-      user: "Michael B.",
+      user: "Aditya Mehta",
       rating: 5,
       date: "July 15, 2023",
       comment: "Excellent hotel in a perfect location. Staff was incredibly helpful and the rooms were immaculate. Would definitely stay again!"
     },
     {
       id: 2,
-      user: "Sarah T.",
+      user: "Sunita Reddy",
       rating: 4,
       date: "June 22, 2023",
       comment: "Very nice hotel with great amenities. The room was spacious and comfortable. Only complaint is that the pool was closed for maintenance during our stay."
     },
     {
       id: 3,
-      user: "David L.",
+      user: "Deepak Kumar",
       rating: 5,
       date: "May 10, 2023",
-      comment: "One of the best hotels I've stayed at in New York. The bed was heavenly and the view from our room was spectacular. The restaurant on-site is also fantastic."
+      comment: "One of the best hotels I've stayed at in Delhi. The bed was heavenly and the view from our room was spectacular. The restaurant on-site is also fantastic."
     }
   ],
   policies: {
