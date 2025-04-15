@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Hotel, Mail, Phone, Instagram, Facebook, Twitter } from 'lucide-react';
@@ -12,10 +11,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Hotel className="h-6 w-6" />
-              <span className="font-bold text-xl">StayEasy</span>
+              <span className="font-bold text-xl">BharatStays</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Book your perfect stay with us. Discover amazing hotels and resorts around the world.
+              Book your perfect stay with us. Discover amazing hotels and resorts across India.
             </p>
             <div className="flex space-x-4">
               <a href="#" aria-label="Facebook" className="hover:text-hotel-secondary transition-colors">
@@ -90,18 +89,18 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail size={18} />
-                <span>support@stayeasy.com</span>
+                <span>support@bharatstays.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Phone size={18} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 (555) 123-4567</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-300">
-          <p>© {new Date().getFullYear()} StayEasy. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BharatStays. All rights reserved.</p>
         </div>
       </div>
     </footer>

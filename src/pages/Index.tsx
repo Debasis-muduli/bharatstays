@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -117,10 +116,10 @@ const Index = () => {
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <div className="max-w-2xl animate-fade-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-              Find Your Perfect Stay
+              Find Your Perfect Stay in India
             </h1>
             <p className="text-xl text-white/90 mb-8">
-              Discover amazing hotels and resorts around the world with best prices guaranteed
+              Discover amazing hotels and resorts across India with best prices guaranteed
             </p>
           </div>
           

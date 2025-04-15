@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <Hotel className="h-6 w-6 text-hotel-primary" />
-          <span className="hidden font-bold text-xl text-hotel-primary sm:inline-block">StayEasy</span>
+          <span className="hidden font-bold text-xl text-hotel-primary sm:inline-block">BharatStays</span>
         </Link>
         
         {/* Desktop Navigation */}
