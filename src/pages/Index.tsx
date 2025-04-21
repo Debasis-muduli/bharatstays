@@ -79,22 +79,22 @@ const popularDestinations = [
   {
     name: "New Delhi",
     image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    hotels: 120,
+    hotels: 12,
   },
   {
     name: "Mumbai",
     image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    hotels: 86,
+    hotels: 8,
   },
   {
     name: "Jaipur",
     image: "https://images.unsplash.com/photo-1703665180697-523baf7c88ec?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    hotels: 93,
+    hotels: 9,
   },
   {
     name: "Goa",
     image: "https://images.unsplash.com/photo-1701421016474-09b19faa9f77?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    hotels: 65,
+    hotels: 6,
   },
 ];
 
