@@ -24,8 +24,8 @@ const mockHotels: HotelProps[] = [
     id: 1,
     name: "Taj Palace",
     location: "New Delhi, Delhi",
-    description: "Experience luxury in the heart of India's capital with stunning views of diplomatic enclave and easy access to iconic landmarks.",
-    price: 15999,
+    description: "Experience luxury in the capital at Taj Palace, with world-class amenities and royal elegance.",
+    price: 14999,
     currency: "₹",
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
@@ -33,58 +33,157 @@ const mockHotels: HotelProps[] = [
   },
   {
     id: 2,
-    name: "Leela Palace",
+    name: "The Oberoi",
     location: "Mumbai, Maharashtra",
-    description: "Beachfront paradise with direct access to pristine beaches, multiple pools, and world-class dining options.",
+    description: "A five-star haven with sea views and award-winning restaurants in Mumbai's business district.",
     price: 18499,
     currency: "₹",
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
-    amenities: ["Beachfront", "Spa", "Multiple Pools", "Restaurant", "Bar", "Fitness Center"]
+    amenities: ["Beachfront", "Spa", "Restaurant", "Bar", "Fitness Center"]
   },
   {
     id: 3,
-    name: "Haveli Heritage Inn",
-    location: "Jaipur, Rajasthan",
-    description: "Affordable comfort in pink city with easy access to business districts and tourist attractions.",
-    price: 7999,
+    name: "Leela Ambience",
+    location: "Gurugram, Haryana",
+    description: "Luxury property featuring a famed spa, fine dining, and easy access to cyber city.",
+    price: 12799,
     currency: "₹",
-    rating: 4.2,
-    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
-    amenities: ["Free WiFi", "Business Center", "Restaurant", "Parking"]
+    rating: 4.65,
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Swimming Pool", "Fitness Center", "Spa", "Restaurant"]
   },
   {
     id: 4,
-    name: "Himalayan View Resort",
-    location: "Shimla, Himachal Pradesh",
-    description: "Rustic elegance with breathtaking mountain views, perfect for nature lovers and outdoor enthusiasts.",
-    price: 9499,
+    name: "ITC Rajputana",
+    location: "Jaipur, Rajasthan",
+    description: "A palatial hotel with Rajasthani-style interiors and traditional hospitality.",
+    price: 9999,
     currency: "₹",
-    rating: 4.6,
-    image: "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
-    amenities: ["Mountain Views", "Hiking Trails", "Restaurant", "Free Parking", "Pet Friendly"]
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Spa", "Swimming Pool", "Restaurant", "Free Parking"]
   },
   {
     id: 5,
-    name: "Colonial Heritage Hotel",
-    location: "Kolkata, West Bengal",
-    description: "Charming hotel housed in a beautifully restored colonial-era building in Kolkata's historic district.",
-    price: 12499,
+    name: "Vivanta Dal View",
+    location: "Srinagar, Jammu & Kashmir",
+    description: "Overlooking Dal Lake, this luxury hotel offers breathtaking views and tranquil vibes.",
+    price: 18999,
     currency: "₹",
-    rating: 4.5,
-    image: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
-    amenities: ["Historic Building", "Free WiFi", "Restaurant", "Bar", "Room Service"]
+    rating: 4.85,
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free Wifi", "Mountain Views", "Restaurant", "Spa", "Room Service"]
   },
   {
     id: 6,
-    name: "Goa Beachside Resort",
-    location: "Panaji, Goa",
-    description: "Modern coastal retreat featuring multiple pools, beachfront access, and spectacular sunset views.",
-    price: 14999,
+    name: "The Park",
+    location: "Kolkata, West Bengal",
+    description: "Stay at this stylish downtown hotel known for its nightlife and dining experiences.",
+    price: 8999,
+    currency: "₹",
+    rating: 4.2,
+    image: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Restaurant", "Bar", "Room Service"]
+  },
+  {
+    id: 7,
+    name: "Radisson Blu",
+    location: "Noida, Uttar Pradesh",
+    description: "Contemporary hotel with luxurious rooms and excellent conference facilities.",
+    price: 10999,
     currency: "₹",
     rating: 4.4,
-    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
-    amenities: ["Multiple Pools", "Beach Access", "Spa", "Restaurant", "Bar", "Fitness Center"]
+    image: "https://images.unsplash.com/photo-1466744915671-0b5d5da0b0bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Swimming Pool", "Restaurant", "Business Center"]
+  },
+  {
+    id: 8,
+    name: "Fortune Select Grand",
+    location: "Chennai, Tamil Nadu",
+    description: "Conveniently located for business and leisure travelers, offering all-day dining and a tranquil pool.",
+    price: 8499,
+    currency: "₹",
+    rating: 4.1,
+    image: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Fitness Center", "Restaurant", "Bar", "Parking"]
+  },
+  {
+    id: 9,
+    name: "Novotel Candolim",
+    location: "Goa",
+    description: "Close to Candolim Beach, featuring a tropical pool, great food, and vibrant nightlife.",
+    price: 11299,
+    currency: "₹",
+    rating: 4.3,
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Swimming Pool", "Beach Access", "Restaurant", "Pet Friendly"]
+  },
+  {
+    id: 10,
+    name: "JW Marriott",
+    location: "Pune, Maharashtra",
+    description: "Ultimate comfort in Pune's business hub with rooftop bars and luxury spa facilities.",
+    price: 16449,
+    currency: "₹",
+    rating: 4.75,
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Rooftop Bar", "Spa", "Fitness Center", "Swimming Pool"]
+  },
+  {
+    id: 11,
+    name: "Hyatt Regency",
+    location: "Ahmedabad, Gujarat",
+    description: "Premium business hotel set by the Sabarmati River, offering comfort and contemporary design.",
+    price: 10500,
+    currency: "₹",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Spa", "Restaurant", "Business Center", "Parking"]
+  },
+  {
+    id: 12,
+    name: "Hotel Lake View",
+    location: "Udaipur, Rajasthan",
+    description: "Relax by Lake Pichola with beautiful views, a rooftop restaurant, and serene ambiance.",
+    price: 7499,
+    currency: "₹",
+    rating: 4.25,
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Lake Views", "Restaurant", "Free Parking"]
+  },
+  {
+    id: 13,
+    name: "Shivani Heritage",
+    location: "Jodhpur, Rajasthan",
+    description: "A boutique heritage stay with traditional charm and gourmet Rajasthani cuisine.",
+    price: 6599,
+    currency: "₹",
+    rating: 4.05,
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Restaurant", "Free WiFi", "Pet Friendly", "Room Service"]
+  },
+  {
+    id: 14,
+    name: "Grand Mercure",
+    location: "Bangalore, Karnataka",
+    description: "Upscale accommodation in the city's tech hub, with garden dining and modern rooms.",
+    price: 13699,
+    currency: "₹",
+    rating: 4.45,
+    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Fitness Center", "Restaurant", "Spa", "Swimming Pool"]
+  },
+  {
+    id: 15,
+    name: "Sheraton Grand",
+    location: "Hyderabad, Telangana",
+    description: "Centrally located hotel offering luxury amenities and excellent conference facilities.",
+    price: 12999,
+    currency: "₹",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80",
+    amenities: ["Free WiFi", "Spa", "Restaurant", "Bar", "Business Center"]
   },
 ];
 
@@ -107,7 +206,7 @@ const Hotels = () => {
   const initialDestination = searchParams.get('destination') || '';
   
   const [destination, setDestination] = useState(initialDestination);
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 20000]);
   const [selectedRating, setSelectedRating] = useState('');
   const [selectedAmenities, setSelectedAmenities] = useState<string[]>([]);
   const [filteredHotels, setFilteredHotels] = useState<HotelProps[]>(mockHotels);
@@ -194,14 +293,14 @@ const Hotels = () => {
                   <Slider
                     defaultValue={priceRange}
                     min={0}
-                    max={500}
-                    step={10}
+                    max={20000}
+                    step={500}
                     onValueChange={(value: number[]) => setPriceRange(value)}
                   />
                 </div>
                 <div className="flex justify-between text-sm text-gray-500">
-                  <span>${priceRange[0]}</span>
-                  <span>${priceRange[1]}</span>
+                  <span>₹{priceRange[0]}</span>
+                  <span>₹{priceRange[1]}</span>
                 </div>
               </div>
               
@@ -251,7 +350,7 @@ const Hotels = () => {
                 className="w-full mt-6"
                 onClick={() => {
                   setDestination('');
-                  setPriceRange([0, 500]);
+                  setPriceRange([0, 20000]);
                   setSelectedRating('');
                   setSelectedAmenities([]);
                 }}
@@ -285,7 +384,7 @@ const Hotels = () => {
                   variant="outline" 
                   onClick={() => {
                     setDestination('');
-                    setPriceRange([0, 500]);
+                    setPriceRange([0, 20000]);
                     setSelectedRating('');
                     setSelectedAmenities([]);
                   }}
@@ -304,4 +403,3 @@ const Hotels = () => {
 };
 
 export default Hotels;
-
